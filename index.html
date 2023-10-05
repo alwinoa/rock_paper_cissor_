@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎲rock-paper</title>
+   
+</head>
+<body>
+
+   <header>
+   <h1>ROCK PAPER CISSOR</h1>
+
+   </header>
+   <main>
+
+    <div class="tablediv">
+   
+        <table>
+            <tr>
+                <th>🫀</th>
+                <th>🤖</th>
+                <th>🤜🤛</th>
+            </tr>
+            
+            <tr>
+                <th class="win">.</th>
+                <th class="lose">.</th>
+                <th class="tie">.</th>
+            </tr>
+    
+
+
+
+        </table>
+    </div>
+   
+
+
+
+
+
+
+    <div class="displaydetails">
+       
+        <p class="status"></p>
+        <P class="whatPick"></P>
+
+
+    </div>
+<!----------------------game optin pick-------------------------------------------------------->
+
+    <div class="gamechoise">
+
+        <button class="btn" onclick="
+            youPick = 'rock';
+            play();
+            
+            
+            
+            ">&#9994;</button>
+    <!---------------------------------->
+
+        <button class="btn" onclick="
+             youPick = 'paper'
+             play();
+        
+        
+        
+        
+        ">&#9995;</button>
+    <!---------------------------------->
+
+        <button class="btn" onclick="
+            youPick = 'cissor'
+             play();
+
+        ">&#9996;</button>
+
+    </div>
+
+    <!--------------score rest button-------------------->
+    <div class="resetdiv">
+        <button class="resetbutton" onclick="
+            restButton();
+        ">reset</button>
+
+
+    </div>
+    
+
+
+   </main>
+
+   
+
+    
+
+
+   <script src="/script/rockpaper.js"></script> 
+</body>
+
+</html>
